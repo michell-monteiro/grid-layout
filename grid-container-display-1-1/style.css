@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.grid-pure {
+    display: grid;
+}
+
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
