@@ -11,8 +11,13 @@
     padding: 10px;
 }
 
+/* Manipula a quantidade e o tamanho das colunas por pixels */
 .grid-template-columns {
-    grid-template-columns: 200x 200px;
+    grid-template-columns: 300px 200px;
+}
+
+.grid-template-columns-3 {
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .grid-item {
