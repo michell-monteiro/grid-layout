@@ -20,6 +20,16 @@
     grid-template-columns: 1fr 2fr 1fr;
 }
 
+.subgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.subgrid > div {
+    background-color: tomato;
+    border: 1px solid black;
+}
+
 .grid-item {
     background-color: azure;
     text-align: center;
