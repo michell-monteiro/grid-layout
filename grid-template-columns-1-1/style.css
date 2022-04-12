@@ -24,6 +24,17 @@
     grid-template-columns: repeat(auto-fit, 100px);
 }
 
+/* Com o auto-fit realmente é criado um layout responsivo */
+.grid-template-columns-6 {
+	grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+
+/* Com o auto-fit realmente é criado um layout responsivo */
+.grid-template-columns-7 {
+	grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+}
+
+
 .grid-item {
     background-color: tomato;
     text-align: center;
