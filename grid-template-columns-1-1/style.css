@@ -4,6 +4,28 @@
     display: grid;
 }
 
+.grid-template-columns-1 {
+    grid-template-columns: 100px 100px;
+}
+
+.grid-template-columns-2 {
+    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+}
+
+.grid-template-columns-3 {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-template-columns-4 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-template-columns-5 {
+    grid-template-columns: repeat(auto-fit, 100px);
+}
+
 .grid-item {
     background-color: tomato;
+    text-align: center;
+    border: 1px solid #ccc;
 }
