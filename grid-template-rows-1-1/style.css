@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.grid {
+    display: grid;
+}
+
+.columns {
+    grid-template-columns: 50px 100px 50px 150px;
+}
+
+.rows {
+    grid-template-rows: 50px 100px 50px 150px;
+}
