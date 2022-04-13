@@ -29,7 +29,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(100px, auto));
 }
 
-/* Com o auto-fit realmente é criado um layout responsivo */
+/* Com o auto-fit realmente é criado um layout responsivo (Será mais utilizado)*/ 
 .grid-template-columns-7 {
 	grid-template-columns: repeat(auto-fill, minmax(100px, auto));
 }
