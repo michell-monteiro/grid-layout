@@ -64,3 +64,11 @@ img {
 }
 
 /* GRID LAYOUT 1 */
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 780px; /*o valor 800px não alinha com o resto da página*/
+    margin: 0 auto;
+    gap: 20px;
+}
