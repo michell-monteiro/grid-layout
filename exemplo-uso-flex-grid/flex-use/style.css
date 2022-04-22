@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* Configurações básicas */
+body, 
+p, 
+ul, 
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
