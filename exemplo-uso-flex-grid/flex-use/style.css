@@ -29,3 +29,13 @@ a {
 .menu {
     display: flex;
 }
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    /* display: block;  */
+    padding: 10px;
+    background-color: tomato;
+}
